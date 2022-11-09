@@ -1,0 +1,53 @@
+.showdiv
+{
+    height: 80%;
+    width: 100%; 
+    // border: 2px solid black;
+    
+}
+
+.showdocument
+{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    
+  
+}
+
+.displayframe
+{
+      height: 50%;
+    width: 100%;
+}
+
+
+.link
+{
+    border: 5px solid #FFFFFF;
+    padding: 10px;
+    background-color: #009;
+    font-weight: 600;
+    width: 250px;
+//     border: 2px solid #000099;
+//     padding: 10px;
+//    background-color: #00000036;
+//     font-weight: 600;
+//     color: #000099;
+//     width:250px;
+//     height: 50px;
+}
+
+.link a{
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+.link:hover{
+    background-color: #6d6dad;
+    
+}
+
+.linksdiv
+{
+    margin-right: 80px;
+}

@@ -1,0 +1,73 @@
+.table
+{
+    border: 2px solid #000;
+    /* height: 200px; */
+    /* width: 200px; */
+    /* padding: 20px; */
+    width: 100%;
+    border-radius: 10px;
+    // border-collapse:collapse;
+ 
+
+}
+
+.haslink
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.table tr:nth-child(2n)
+{
+    background-color: #EAE9E8; 
+}
+// .table tr:last-child td:first-child
+// {
+    // border-bottom-left-radius:10px;
+// }
+.column
+{
+    padding: 12px;
+    // border-right: 2px solid #000;
+    width: 25%;
+    background-color: #000099;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.columnRevNo
+{
+    padding: 12px;
+    // border-right: 2px solid #000;
+    width: 10%;
+    background-color: #000099;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.valuecolumn
+{
+    padding: 5px;
+    // border-right: 2px solid #000;
+    width: 25%;
+    font-weight: 700;
+    font-size: 12px;
+    // border-bottom: 2px solid black;
+}
+.valuecolumnRevNo
+{
+    padding: 5px;
+    // border-right: 2px solid #000;
+    // width: 25%;
+    font-weight: 700;
+    font-size: 12px;
+    // border-bottom: 2px solid black;
+}
